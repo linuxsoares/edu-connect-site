@@ -1,0 +1,95 @@
+{
+  "name": "educonnect-landing-page",
+  "version": "1.0.0",
+  "description": "Landing page para o EduConnect - Sistema de Gestão Educacional Moderno",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 3000 -o",
+    "dev": "npx live-server --port=3000 --open=/",
+    "build": "echo 'Landing page is static - no build required'",
+    "deploy": "echo 'Use GitHub Actions for deployment'",
+    "lint:html": "npx htmlhint *.html",
+    "lint:css": "npx stylelint *.css",
+    "optimize": "npx html-minifier --collapse-whitespace --remove-comments --minify-css --minify-js --output index.min.html index.html",
+    "serve": "python3 -m http.server 3000",
+    "test": "echo 'No tests specified'",
+    "validate": "npx html-validate index.html"
+  },
+  "keywords": [
+    "educonnect",
+    "educação",
+    "gestão escolar",
+    "landing page",
+    "react",
+    "go",
+    "postgresql",
+    "ia",
+    "inteligencia artificial",
+    "sistema educacional",
+    "estudantes",
+    "professores",
+    "pais"
+  ],
+  "author": {
+    "name": "EduConnect Team",
+    "email": "contato@educonnect.com",
+    "url": "https://github.com/educonnect"
+  },
+  "license": "MIT",
+  "homepage": "https://educonnect.github.io/edu-connect/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/educonnect/edu-connect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/educonnect/edu-connect/issues"
+  },
+  "devDependencies": {
+    "html-minifier": "^4.0.0",
+    "htmlhint": "^1.1.4",
+    "html-validate": "^8.0.0",
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2",
+    "stylelint": "^15.10.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "files": [
+    "index.html",
+    "styles.css",
+    "README.md",
+    ".nojekyll"
+  ],
+  "directories": {
+    "doc": "docs"
+  },
+  "config": {
+    "port": 3000
+  },
+  "deploy": {
+    "type": "github-pages",
+    "branch": "main",
+    "workflow": ".github/workflows/deploy-landing-page.yml"
+  },
+  "meta": {
+    "title": "EduConnect - Sistema de Gestão Educacional Moderno",
+    "description": "Conecte estudantes, pais e professores através de uma plataforma web moderna e intuitiva",
+    "language": "pt-BR",
+    "framework": "vanilla-html-css-js",
+    "deployment": "github-pages",
+    "features": [
+      "responsive-design",
+      "seo-optimized",
+      "ai-insights",
+      "modern-ui",
+      "performance-optimized"
+    ]
+  }
+}

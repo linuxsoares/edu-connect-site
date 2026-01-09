@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduConnect - Sistema de Gestão Educacional Moderno</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="bg-gray-50">
+
+    <header class="gradient-bg text-white shadow-lg sticky top-0 z-50">
+      <nav class="container mx-auto px-6 py-4">
+        <div class="flex justify-between items-center">
+          <div class="flex items-center">
+            <i class="fas fa-graduation-cap text-3xl mr-3"></i>
+            <h1 class="text-2xl font-bold">EduConnect</h1>
+          </div>
+          <div class="hidden md:flex space-x-6">
+            <a href="#por-que" class="nav-link">Por que usar?</a>
+            <a href="#recursos" class="nav-link">Recursos</a>
+            <a href="#demo" class="nav-link">Demonstração</a>
+            <a href="#contato" class="nav-link">Contato</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="gradient-bg text-white pt-10 pb-20 relative overflow-hidden">
+      <div class="container mx-auto px-6 flex flex-col items-center">
+        <div class="w-full max-w-7xl mb-12 animate-fade-in-up">
+          <div class="showcase-container">
+            <img 
+              src="banner.png" 
+              alt="Banner EduConnect" 
+              class="rounded-2xl shadow-2xl border-4 border-white border-opacity-20 w-full h-auto"
+            >
+          </div>
+        </div>
+
+        <div class="text-center max-w-4xl animate-fade-in-up delay-200">
+          <h2 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+            A escola na palma <br class="hidden md:block"> 
+            <span class="text-blue-200">da sua mão</span>
+          </h2>
+          
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="https://educonnect-ifa5v.ondigitalocean.app" target="_blank" class="bg-white text-blue-600 px-10 py-4 rounded-lg font-bold hover:bg-blue-50 transition duration-300 shadow-xl flex items-center justify-center">
+              <i class="fas fa-rocket mr-2"></i> Testar agora
+            </a>
+            <a href="#por-que" class="border-2 border-white bg-white bg-opacity-10 px-10 py-4 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition duration-300 flex items-center justify-center">
+              <i class="fas fa-arrow-down mr-2"></i> Ver vantagens
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="por-que" class="py-24 bg-white">
+      <div class="container mx-auto px-6">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+          <h3 class="text-4xl font-bold mb-6 text-gray-800">Por que usar o Edu-Connect?</h3>
+          <p class="text-lg text-gray-600">
+            Ajudamos sua escola a organizar o que hoje é bagunça. Veja como facilitamos sua vida:
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <div class="p-8 rounded-2xl bg-gray-50 border border-gray-100 card-hover">
+            <div class="w-12 h-12 bg-red-100 text-red-600 rounded-full flex items-center justify-center mb-6">
+              <i class="fas fa-check-circle"></i>
+            </div>
+            <h4 class="text-xl font-bold mb-3 text-gray-800">Tchau, papelada!</h4>
+            <p class="text-gray-600">Chega de pilhas de papel. Notas, chamadas e documentos: tudo digital e automático.</p>
+          </div>
+          <div class="p-8 rounded-2xl bg-gray-50 border border-gray-100 card-hover">
+            <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mb-6">
+              <i class="fas fa-bell"></i>
+            </div>
+            <h4 class="text-xl font-bold mb-3 text-gray-800">Avisos no celular</h4>
+            <p class="text-gray-600">Recado no caderno? Isso não funciona. Mande avisos direto para o celular de pais e alunos.</p>
+          </div>
+          <div class="p-8 rounded-2xl bg-gray-50 border border-gray-100 card-hover">
+            <div class="w-12 h-12 bg-green-100 text-green-600 rounded-full flex items-center justify-center mb-6">
+              <i class="fas fa-wallet"></i>
+            </div>
+            <h4 class="text-xl font-bold mb-3 text-gray-800">Contas em dia</h4>
+            <p class="text-gray-600">Boletos e pagamentos organizados. Os pais veem o que devem e a escola controla tudo fácil.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="recursos" class="py-24 bg-gray-50">
+      <div class="container mx-auto px-6">
+        <div class="text-center max-w-3xl mx-auto mb-20">
+            <h3 class="text-4xl font-bold mb-4 text-gray-800">Tudo o que você precisa</h3>
+            <p class="text-gray-600 text-lg">Uma plataforma completa com ferramentas desenhadas para cada membro da comunidade escolar.</p>
+        </div>
+
+        <div class="mb-24">
+          <div class="flex items-center mb-10">
+            <span class="bg-blue-600 text-white px-4 py-1 rounded-full text-sm font-bold uppercase tracking-widest mr-4 shadow-md">Estudantes</span>
+            <div class="h-px bg-gray-200 flex-grow"></div>
+          </div>
+          <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm card-hover">
+              <div class="w-14 h-14 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center mb-6 text-2xl">
+                <i class="fas fa-tachometer-alt"></i>
+              </div>
+              <h5 class="text-xl font-bold mb-3 text-gray-800">Dashboard</h5>
+              <p class="text-gray-600 text-sm leading-relaxed">Visão geral das tarefas do dia e eventos escolares importantes.</p>
+            </div>
+            <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm card-hover">
+              <div class="w-14 h-14 bg-green-50 text-green-600 rounded-2xl flex items-center justify-center mb-6 text-2xl">
+                <i class="fas fa-chart-bar"></i>
+              </div>
+              <h5 class="text-xl font-bold mb-3 text-gray-800">Notas</h5>
+              <p class="text-gray-600 text-sm leading-relaxed">Acesse boletins e histórico de desempenho de forma instantânea.</p>
+            </div>
+            <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm card-hover">
+              <div class="w-14 h-14 bg-purple-50 text-purple-600 rounded-2xl flex items-center justify-center mb-6 text-2xl">
+                <i class="fas fa-calendar-alt"></i>
+              </div>
+              <h5 class="text-xl font-bold mb-3 text-gray-800">Calendário</h5>
+              <p class="text-gray-600 text-sm leading-relaxed">Organize sua rotina de estudos com datas de provas e eventos.</p>
+            </div>
+            <div class="bg-white p-8 rounded-3xl border border-blue-100 shadow-md card-hover relative overflow-hidden bg-blue-50 bg-opacity-20">
+                <div class="w-14 h-14 bg-blue-600 text-white rounded-2xl flex items-center justify-center mb-6 text-2xl shadow-lg animate-pulse">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h5 class="text-xl font-bold mb-3 text-gray-800">IA Insights</h5>
+                <p class="text-gray-600 text-sm leading-relaxed">Análise inteligente com recomendações personalizadas de estudo.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-24">
+          <div class="flex items-center mb-10">
+            <span class="bg-green-600 text-white px-4 py-1 rounded-full text-sm font-bold uppercase tracking-widest mr-4 shadow-md">Pais</span>
+            <div class="h-px bg-gray-200 flex-grow"></div>
+          </div>
+          <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm card-hover">
+              <div class="w-14 h-14 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center mb-6 text-2xl">
+                <i class="fas fa-eye"></i>
+              </div>
+              <h5 class="text-xl font-bold mb-3 text-gray-800">Monitoramento</h5>
+              <p class="text-gray-600 text-sm leading-relaxed">Acompanhe a frequência e as atividades dos seus filhos em tempo real.</p>
+            </div>
+            <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm card-hover">
+              <div class="w-14 h-14 bg-green-50 text-green-600 rounded-2xl flex items-center justify-center mb-6 text-2xl">
+                <i class="fas fa-credit-card"></i>
+              </div>
+              <h5 class="text-xl font-bold mb-3 text-gray-800">Financeiro</h5>
+              <p class="text-gray-600 text-sm leading-relaxed">Gestão de faturas, pagamentos via Pix e histórico financeiro.</p>
+            </div>
+            <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm card-hover">
+              <div class="w-14 h-14 bg-purple-50 text-purple-600 rounded-2xl flex items-center justify-center mb-6 text-2xl">
+                <i class="fas fa-comments"></i>
+              </div>
+              <h5 class="text-xl font-bold mb-3 text-gray-800">Comunicação</h5>
+              <p class="text-gray-600 text-sm leading-relaxed">Canal direto com professores e coordenação sem burocracia.</p>
+            </div>
+            <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm card-hover">
+              <div class="w-14 h-14 bg-yellow-50 text-yellow-600 rounded-2xl flex items-center justify-center mb-6 text-2xl">
+                <i class="fas fa-bus"></i>
+              </div>
+              <h5 class="text-xl font-bold mb-3 text-gray-800">Transporte</h5>
+              <p class="text-gray-600 text-sm leading-relaxed">Rastreie o ônibus escolar no mapa e receba alertas de chegada.</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="flex items-center mb-10">
+            <span class="bg-purple-600 text-white px-4 py-1 rounded-full text-sm font-bold uppercase tracking-widest mr-4 shadow-md">Professores & Equipe</span>
+            <div class="h-px bg-gray-200 flex-grow"></div>
+          </div>
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm card-hover">
+              <div class="w-14 h-14 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center mb-6 text-2xl">
+                <i class="fas fa-user-cog"></i>
+              </div>
+              <h5 class="text-xl font-bold mb-3 text-gray-800">Gestão de Alunos</h5>
+              <p class="text-gray-600 text-sm leading-relaxed">Acesso rápido aos perfis, registros médicos e acadêmicos.</p>
+            </div>
+            <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm card-hover">
+              <div class="w-14 h-14 bg-green-50 text-green-600 rounded-2xl flex items-center justify-center mb-6 text-2xl">
+                <i class="fas fa-edit"></i>
+              </div>
+              <h5 class="text-xl font-bold mb-3 text-gray-800">Lançamento de Notas</h5>
+              <p class="text-gray-600 text-sm leading-relaxed">Sistema simplificado para inserção de avaliações e observações.</p>
+            </div>
+            <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm card-hover">
+              <div class="w-14 h-14 bg-purple-50 text-purple-600 rounded-2xl flex items-center justify-center mb-6 text-2xl">
+                <i class="fas fa-calendar-plus"></i>
+              </div>
+              <h5 class="text-xl font-bold mb-3 text-gray-800">Agenda Integrada</h5>
+              <p class="text-gray-600 text-sm leading-relaxed">Criação de eventos, tarefas e avisos para turmas específicas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="demo" class="py-24 bg-gray-100 relative">
+      <div class="container mx-auto px-6">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <h3 class="text-4xl font-bold mb-4 text-gray-800">Experimente na prática</h3>
+          <p class="text-gray-600 text-lg">Escolha um perfil abaixo e explore todas as funcionalidades do sistema.</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <a href="https://educonnect-ifa5v.ondigitalocean.app/?email=admin@educonnect.com&password=password&force=true" target="_blank" class="demo-card group bg-white p-8 rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-500 text-center border border-gray-100">
+            <div class="w-20 h-20 mx-auto bg-red-50 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-500">
+              <i class="fas fa-user-shield text-3xl text-red-500"></i>
+            </div>
+            <h4 class="text-xl font-bold text-gray-800 mb-2">Diretor</h4>
+            <p class="text-gray-500 text-sm mb-6 leading-relaxed">Gestão total, relatórios financeiros e controlo de turmas.</p>
+            <span class="inline-flex items-center text-red-500 font-bold text-sm uppercase tracking-wider">Entrar <i class="fas fa-arrow-right ml-2 group-hover:translate-x-2 transition-transform"></i></span>
+          </a>
+
+          <a href="https://educonnect-ifa5v.ondigitalocean.app/?email=juliana.costa@eng.edu.br&password=password&force=true" target="_blank" class="demo-card group bg-white p-8 rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-500 text-center border border-gray-100">
+            <div class="w-20 h-20 mx-auto bg-purple-50 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-500">
+              <i class="fas fa-chalkboard-teacher text-3xl text-purple-500"></i>
+            </div>
+            <h4 class="text-xl font-bold text-gray-800 mb-2">Professor</h4>
+            <p class="text-gray-500 text-sm mb-6 leading-relaxed">Lançar notas, presenças e comunicar com os pais.</p>
+            <span class="inline-flex items-center text-purple-500 font-bold text-sm uppercase tracking-wider">Entrar <i class="fas fa-arrow-right ml-2 group-hover:translate-x-2 transition-transform"></i></span>
+          </a>
+
+          <a href="https://educonnect-ifa5v.ondigitalocean.app/?email=maria.oliveira@example.com&password=password&force=true" target="_blank" class="demo-card group bg-white p-8 rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-500 text-center border border-gray-100">
+            <div class="w-20 h-20 mx-auto bg-green-50 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-500">
+              <i class="fas fa-user-group text-3xl text-green-500"></i>
+            </div>
+            <h4 class="text-xl font-bold text-gray-800 mb-2">Pai / Mãe</h4>
+            <p class="text-gray-500 text-sm mb-6 leading-relaxed">Acompanhar notas, pagamentos e localização do ônibus.</p>
+            <span class="inline-flex items-center text-green-500 font-bold text-sm uppercase tracking-wider">Entrar <i class="fas fa-arrow-right ml-2 group-hover:translate-x-2 transition-transform"></i></span>
+          </a>
+
+          <a href="https://educonnect-ifa5v.ondigitalocean.app/?email=rafael.shidomi@example.com&password=password&force=true" target="_blank" class="demo-card group bg-white p-8 rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-500 text-center border border-gray-100">
+            <div class="w-20 h-20 mx-auto bg-blue-50 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-500">
+              <i class="fas fa-user-graduate text-3xl text-blue-500"></i>
+            </div>
+            <h4 class="text-xl font-bold text-gray-800 mb-2">Estudante</h4>
+            <p class="text-gray-500 text-sm mb-6 leading-relaxed">Ver tarefas, horários de aulas e material didático.</p>
+            <span class="inline-flex items-center text-blue-500 font-bold text-sm uppercase tracking-wider">Entrar <i class="fas fa-arrow-right ml-2 group-hover:translate-x-2 transition-transform"></i></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="py-24 bg-white">
+      <div class="container mx-auto px-6">
+        <div class="max-w-5xl mx-auto bg-gray-50 rounded-3xl shadow-2xl overflow-hidden flex flex-col md:flex-row">
+          
+          <div class="gradient-bg md:w-2/5 p-12 text-white flex flex-col justify-center">
+            <h3 class="text-3xl font-bold mb-6">Vamos conversar?</h3>
+            <p class="mb-10 opacity-90 leading-relaxed">Tire suas dúvidas, nossa equipe responde em menos de 24h.</p>
+          </div>
+
+          <div class="md:w-3/5 p-12 bg-white">
+            <form action="https://formspree.io/f/xwvpjnnr" method="POST" class="space-y-5">
+              <div class="grid md:grid-cols-2 gap-5">
+                <div>
+                  <label class="block text-gray-700 font-semibold mb-2">Seu Nome</label>
+                  <input type="text" name="nome" placeholder="Ex: João Silva" required class="form-input w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none transition">
+                </div>
+                <div>
+                  <label class="block text-gray-700 font-semibold mb-2">E-mail Corporativo</label>
+                  <input type="email" name="email" placeholder="email@escola.com" required class="form-input w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none transition">
+                </div>
+              </div>
+              
+              <div class="grid md:grid-cols-2 gap-5">
+                <div>
+                  <label class="block text-gray-700 font-semibold mb-2">Nome da Instituição</label>
+                  <input type="text" name="instituicao" placeholder="Nome da sua escola" required class="form-input w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none transition">
+                </div>
+                <div>
+                  <label class="block text-gray-700 font-semibold mb-2">Telefone / WhatsApp</label>
+                  <input type="tel" name="whatsapp" placeholder="(11) 99999-9999" required class="form-input w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none transition">
+                </div>
+              </div>
+
+              <div>
+                <label class="block text-gray-700 font-semibold mb-2">Mensagem</label>
+                <textarea name="mensagem" rows="4" placeholder="Como podemos ajudar você hoje?" required class="form-input w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none transition"></textarea>
+              </div>
+
+              <button type="submit" class="w-full gradient-bg text-white font-bold py-4 rounded-xl hover:shadow-lg transform hover:-translate-y-1 transition duration-300 uppercase tracking-widest text-sm">
+                Enviar Mensagem
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-12">
+      <div class="container mx-auto px-6 text-center">
+        <div class="flex items-center justify-center mb-6">
+            <i class="fas fa-graduation-cap text-3xl mr-3"></i>
+            <span class="text-2xl font-bold">EduConnect</span>
+        </div>
+        <p class="text-sm opacity-40">&copy; 2024 EduConnect. Simples, moderno e educativo.</p>
+      </div>
+    </footer>
+
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+              e.preventDefault();
+              const target = document.querySelector(this.getAttribute('href'));
+              if (target) {
+                  window.scrollTo({
+                      top: target.offsetTop - 80, 
+                      behavior: 'smooth'
+                  });
+              }
+          });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+    --primary-color: #667eea;
+    --secondary-color: #764ba2;
+}
+
+body { 
+    font-family: 'Inter', sans-serif; 
+    scroll-behavior: smooth; 
+    overflow-x: hidden; 
+}
+
+/* Backgrounds e Navegação */
+.gradient-bg {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+}
+
+.nav-link { 
+    opacity: 0.85; 
+    transition: 0.3s; 
+    border-bottom: 2px solid transparent; 
+    padding-bottom: 4px;
+}
+.nav-link:hover { 
+    opacity: 1; 
+    border-bottom-color: white; 
+}
+
+/* Animações */
+.showcase-container { 
+    animation: floating 5s ease-in-out infinite; 
+}
+
+@keyframes floating {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+}
+
+.animate-fade-in-up { 
+    animation: fadeInUp 0.8s ease-out forwards; 
+}
+
+.delay-200 { 
+    animation-delay: 0.2s; 
+    opacity: 0; 
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Cards e Hover */
+.card-hover { 
+    transition: 0.3s cubic-bezier(0.165, 0.84, 0.44, 1); 
+}
+.card-hover:hover { 
+    transform: translateY(-8px); 
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15); 
+}
+
+/* Estilos Específicos da Sessão Demo */
+.demo-card {
+    display: block;
+    text-decoration: none;
+}
+
+.demo-card:hover h4 {
+    color: var(--primary-color);
+}
+
+/* Formulário de Contato */
+.form-input:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.1);
+}
+
+/* Scrollbar Personalizada */
+::-webkit-scrollbar { 
+    width: 8px; 
+}
+::-webkit-scrollbar-thumb { 
+    background: var(--primary-color); 
+    border-radius: 10px; 
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
